@@ -16,31 +16,28 @@
     <script src="scripts/location.js" type="text/javascript"></script>
 </head>
 <body>
-    <script src="jquery/jquery-2.1.0.js"></script>
-        <script src="jquerymobile/jquery.mobile-1.4.2.js"></script>
-    
-    <div data-role="header" data-position="fixed">
-        
-  <h1> Historia de España</h1>
-  
-
-  <a href="index.html" data-icon="gear" class="ui-btn-right">Options</a>
-  <div data-role="controlgroup" data-type="horizontal">
-      
- 
-    </div>
    
     <div data-role="page" id="page1">
-  <div data-role="header">
-    <h1>Historia de España</h1>
-  </div>
-        <ul data-role="listview">
-  <li><a href="Guerra Civil.html">Guerra Civil</a></li>
-  <li><a href="Franquismo.html">Franquismo</a></li>
-  <li><a href="Transicion.html">Transición</a></li>
-   </ul>
         
- 
-   
+      <header data-role ="header" data-theme="b"> 
+        <h1 class="ui-title" role="heading">Historiab de España</h1>
+        <a href="index.html" class="ui-btn-left" data-role="button">Ejemplo</a> 
+       <div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
+         <a href="#" data-role="button" data-icon="gear">filter</a>
+        <a href="#" data-role="button" data-icon="grid">move</a>
+      </div>
+    </header>
+    
+      <div data-role="content">
+           <ul data-role="listview">
+ 			 <li><a href="Guerra Civil.html">Guerra Civil</a></li>
+  			 <li><a href="Franquismo.html">Franquismo</a></li>
+         	 <li><a href="Transicion.html">Transición</a></li>
+  		  </ul>    
+      </div>
+   </div>
+       
+   <script src="jquery/jquery-2.1.0.js"></script>
+   <script src="jquerymobile/jquery.mobile-1.4.2.js"></script>
 </body>
 </html>
